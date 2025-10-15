@@ -1,0 +1,8 @@
+node_modules/
+backend/dist/
+.env
+.env.local
+*.log
+package-lock.json
+.vercel
+tinkerly-mirror.git/
