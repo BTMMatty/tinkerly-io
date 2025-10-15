@@ -12,7 +12,6 @@ jobs:
       - uses: amondnet/vercel-action@v25
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: your-vercel-org-id  # From Vercel dashboard
-          vercel-project-id: your-vercel-project-id  # From Vercel
-          scope: your-vercel-team-slug  # If team account
-          vercel-args: '--prod'  # For production deploy
+          vercel-org-id: DaftPunks
+          vercel-project-id: tinkerly-io
+          vercel-args: '--prod'
