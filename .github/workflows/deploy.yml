@@ -12,7 +12,7 @@ jobs:
       - uses: amondnet/vercel-action@v20
         with:
           vercel-token: ${{ secrets.VERCEL_TOKEN }}
-          vercel-org-id: BTMMatty
-          vercel-project-id: tinkerly-io
+          vercel-org-id: ScSHMKrlF4hZ4jZEWzgcTnrG
+          vercel-project-id: prj_NqfQECUGrp8n31SDxawvwMsbLlTN
           scope: daft-punks
           vercel-args: '--prod'  # For production deploy
